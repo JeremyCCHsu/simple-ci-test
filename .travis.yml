@@ -7,4 +7,4 @@ before_install:
 install:
   - pip install numpy
 script: 
-  - test.py
+  - python test.py
