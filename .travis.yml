@@ -1,0 +1,10 @@
+language: python
+python:
+  - "2.7"
+before_install:
+  - pip install -U pip
+
+install:
+  - pip install numpy
+script: 
+  - demo.py
